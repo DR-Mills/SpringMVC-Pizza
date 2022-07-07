@@ -1,6 +1,15 @@
 package co.grandcircus.springlab;
 
-public class SpecialPizzas {
+import java.util.HashMap;
+import java.util.Map;
 
-	public static String petaNightmare = "chicken, beef, salami";
+public class SpecialPizzas {
+	
+	HashMap<String, String> map = new HashMap<>();
+	
+	public void initializeMap() {
+
+	map.put("petaNightmare", "chicken, bacon, salami");
+	
+	}
 }

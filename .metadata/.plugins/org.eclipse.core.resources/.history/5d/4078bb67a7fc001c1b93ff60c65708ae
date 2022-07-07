@@ -1,0 +1,13 @@
+package co.grandcircus.springlab;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class SpecialPizzas {
+	
+	HashMap<String, String> map = new HashMap<>();
+
+	map.push("string", "lah");
+	
+	
+}

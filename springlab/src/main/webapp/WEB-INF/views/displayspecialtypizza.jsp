@@ -7,15 +7,14 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" href="style.css">
-<title>Special Pizza Page</title>
+<title>Pizza Page</title>
 </head>
 <body>
 	<div class="header">
-		<h1>Specialty Pizza: ${pizza_name}</h1>
+		<h1>Specialty Pizza: ${name}</h1>
 	</div>
-	<h3>Pizza: ${pizza_name}</h3>
-	<h3>Price: ${pizza_price}</h3>
-	<h3>Toppings: mmm....</h3>
+	<h3>Pizza: ${name}</h3>
+	<h3>Price: ${price}</h3>
 	
 		<div class="spaceHolder"></div>
 

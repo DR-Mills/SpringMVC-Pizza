@@ -20,21 +20,29 @@
 
 	<div class="pizzaMenu">
 		<div>
-			<h2>Choose Your Favorite Pizza</h2>
+			<h2>Specialty Pizza</h2>
 		</div>
 		<div class="items">
 			<div class="pizza">
-				<a href="/specialtypizza?pizza_name=nightmare&pizza_price=dog">PETA Nightmare</a>
+				<a href="/specialtypizza?name=P.E.T.A's Nightmare&price=$15.00&">P.E.T.A. Nightmare</a>
 			</div>
 
 			<div class="pizza">
-				<a href="/specialtypizza...">Pizza 2</a>
+				<a href="/specialtypizza?name=Texas Heartache&price=$13.00">Texas Heartache</a>
 			</div>
 
 			<div class="pizza">
-				<a href="/specialtypizza...">Pizza 3</a>
+				<a href="/specialtypizza?name=The High Schooler&price=$12.00">The High Schooler</a>
 			</div>
 
+		</div>
+		<div>
+			<h2>Custom Pizza</h2>
+		</div>
+		<div class=buildPizza>
+			<div class="pizza">
+				<a href="/pizzabuilder">Build Your Own Pizza!</a>
+			</div>
 		</div>
 
 	</div>

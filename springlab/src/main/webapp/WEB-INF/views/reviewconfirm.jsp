@@ -7,7 +7,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" href="style.css">
-<title>Insert title here</title>
+<title>Review Confirmation</title>
 </head>
 <body>
 	<div class="header">
@@ -16,8 +16,8 @@
 
 	<div>
 		<h3>Your Name: ${name}</h3>
-		<h3>Rating: ${star_rating}</h3>
-		<h3>Review: ${review_text}</h3>
+		<h3>Rating: ${starRating}</h3>
+		<h3>Review: ${reviewText}</h3>
 	</div>
 
 	<div class="spaceHolder"></div>

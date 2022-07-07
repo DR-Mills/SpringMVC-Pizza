@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="style.css">
+<title>Special Pizza Page</title>
+</head>
+<body>
+	<div class="header">
+		<h1>Specialty Pizza: ${pizza_name}</h1>
+	</div>
+	<h3>Pizza: ${pizza_name}</h3>
+	<h3>Price: ${pizza_price}</h3>
+	<h3>Toppings: mmm....</h3>
+	
+		<div class="spaceHolder"></div>
+
+	<div>
+		<a href="/" class="button-32">Return to Home Page</a>
+	</div>
+</body>
+</html>
