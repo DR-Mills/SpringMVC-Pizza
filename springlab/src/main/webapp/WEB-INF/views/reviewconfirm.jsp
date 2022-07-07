@@ -14,7 +14,7 @@
 		<h1>Thanks for the Review!</h1>
 	</div>
 
-	<div>
+	<div class="putMeInABox">
 		<h3>Your Name: ${name}</h3>
 		<h3>Rating: ${starRating}</h3>
 		<h3>Review: ${reviewText}</h3>

@@ -13,9 +13,12 @@
 	<div class="header">
 		<h1>Specialty Pizza: ${name}</h1>
 	</div>
+	<div class="putMeInABox">
 	<h3>Pizza: ${name}</h3>
 	<h3>Price: ${price}</h3>
+	<h3>Toppings: ${toppings}</h3>
 	
+	</div>
 		<div class="spaceHolder"></div>
 
 	<div>

@@ -14,7 +14,7 @@
 		<h1>That Pizza Looks Delicious!</h1>
 	</div>
 
-	<div>
+	<div class="putMeInABox">
 		<h3>Size: ${size}</h3>
 		<h3>Toppings: ${toppingCount}</h3>
 		<h3>Gluten-Free Crust: ${glutenFree}</h3>
