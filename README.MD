@@ -25,3 +25,22 @@ Experiment with using GET and POST on forms.
 Add a pizza-themed Madlib story form and page.
 Instead of “true” or “false” for gluten-free crust on the results page, show “yes” or “no”.
 Format prices to always have two decimal places.
+
+
+6.3 SPRING MVC PIZZA LAB (PART 2) - VALIDATION 
+
+Task: Add validation to the pizza website.
+
+Skills: Form validation
+
+Build Specifications
+Review Form
+Name is required.
+The comment is required and must be at least five characters.
+Rating is required.
+Custom Pizza Builder Form
+Topping Count must be between 0 and 10.
+Topping Count must be a whole number.
+
+Extended Challenges
+Add CSS & images.

@@ -22,8 +22,11 @@ public class HomeController {
 	}
 
 	@PostMapping("/reviewform")
-	public String submitReviewForm(@RequestParam String rating, @RequestParam String name, @RequestParam String review,
+	public String submitReviewForm(@RequestParam int rating, @RequestParam String name, @RequestParam String review,
 			Model model) {
+		if (rating < 1 || rating > 5 || review.length() < 5 || review.length() > 1000 || name.equals("")) {
+			return "entryError";
+		}
 		model.addAttribute("starRating", rating);
 		model.addAttribute("name", name);
 		model.addAttribute("reviewText", review);
@@ -45,10 +48,10 @@ public class HomeController {
 		case "The High Schooler":
 			toppings = SpecialPizzaToppings.theHighSchooler;
 			break;
-		default:
-			name = "You are a hacker";
-			price = "Jailtime";
-			toppings = "Congratulations on your XSS vulnerability find, but please don't try to make your own pizzas without a health permit.";
+//		default:
+//			name = "You are a hacker";
+//			price = "Jailtime";
+//			toppings = "Congratulations on your website vulnerability find, but please don't try to make your own pizzas without a health permit.";
 		}
 
 		model.addAttribute("name", name);

@@ -18,7 +18,7 @@
 	<div class="form">
 		<form action="/reviewform" method="post">
 			Rating:  </br>
-			<input type="radio" value="1" id="1-star" name="rating"/>
+			<input type="radio" value="1" id="1-star" name="rating" required/>
 			<label for="1-star">1 (terrible!)</label> 
 			<input type="radio" value="2" id="2-star" name="rating"/> 
 			<label for="2-star">2</label>
@@ -29,9 +29,9 @@
 			<input type="radio" value="5" id="5-star" name="rating"/>
 			<label for="5-star">5 (amazing!)</label> </br>
 			Name:  </br>
-			<input type="text" name="name"/> </br>
+			<input type="text" name="name" required/> </br>
 			Review:  </br>
-			<textarea name="review" cols="80" rows="10" maxlength="1000"></textarea> </br>
+			<textarea name="review" cols="80" rows="10" minlength=5 maxlength="1000" required></textarea> </br>
 			<input class="submit" type="submit"/>
 		</form>
 	</div>

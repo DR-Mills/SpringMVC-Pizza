@@ -27,8 +27,8 @@
 				<option value="large">Large</option>
 			</select> </br>
 		
-			<label for="toppingCount">How many toppings? (between 0-12):</label>
-			<input type="number" id="toppingCount" name="toppingCount" min="0" max="12"/> </br>
+			<label for="toppingCount">How many toppings? (between 0-10):</label>
+			<input type="number" id="toppingCount" name="toppingCount" min="0" max="10" step="1" oninput="validity.valid||(value='');" required/> </br>
 			
 			<label for="glutenFree">Gluten-Free Crust? (add $2.00)</label>
 			<input type="checkbox" name="glutenFree" id="glutenFree" value="yes"/> </br>
