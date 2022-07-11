@@ -19,7 +19,7 @@
 		<h3>Toppings: ${toppingCount}</h3>
 		<h3>Gluten-Free Crust: ${glutenFree}</h3>
 		<h3>Special Instructions: ${specialInstructions}</h3>
-		<h3>Price: ${price}</h3>
+		<h3>Price: $${price}</h3>
 	</div>
 
 	<div class="spaceHolder"></div>

@@ -24,15 +24,15 @@
 		</div>
 		<div class="items">
 			<div class="pizza">
-				<a href="/specialtypizza?name=P.E.T.A's Nightmare&price=$15.00">P.E.T.A. Nightmare</a>
+				<a href="/specialtypizza?name=P.E.T.A's Nightmare&price=15.00">P.E.T.A. Nightmare</a>
 			</div>
 
 			<div class="pizza">
-				<a href="/specialtypizza?name=Texas Heartache&price=$13.00">Texas Heartache</a>
+				<a href="/specialtypizza?name=Texas Heartache&price=13.00">Texas Heartache</a>
 			</div>
 
 			<div class="pizza">
-				<a href="/specialtypizza?name=The High Schooler&price=$12.00">The High Schooler</a>
+				<a href="/specialtypizza?name=The High Schooler&price=12.00">The High Schooler</a>
 			</div>
 
 		</div>

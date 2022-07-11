@@ -40,18 +40,21 @@ public class HomeController {
 
 		switch (name) {
 		case "P.E.T.A's Nightmare":
+			price = "15.00";
 			toppings = SpecialPizzaToppings.petaNightmare;
 			break;
 		case "Texas Heartache":
+			price = "13.00";
 			toppings = SpecialPizzaToppings.texasHeartache;
 			break;
 		case "The High Schooler":
+			price = "12.00";
 			toppings = SpecialPizzaToppings.theHighSchooler;
 			break;
-//		default:
-//			name = "You are a hacker";
-//			price = "Jailtime";
-//			toppings = "Congratulations on your website vulnerability find, but please don't try to make your own pizzas without a health permit.";
+		default:
+			name = "You are a hacker";
+			price = "Jailtime";
+			toppings = "Congratulations on your website vulnerability find, but please don't try to make your own pizzas without a health permit.";
 		}
 
 		model.addAttribute("name", name);
